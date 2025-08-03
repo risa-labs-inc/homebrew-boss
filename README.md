@@ -6,7 +6,7 @@ This is the official Homebrew tap for Risa Labs software packages.
 
 ### Quick Install
 ```bash
-brew install risa-labs-inc/boss
+brew install --cask risa-labs-inc/risa-labs-inc/boss
 ```
 
 ### Manual Tap + Install
