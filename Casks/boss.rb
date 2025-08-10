@@ -1,5 +1,5 @@
 cask "boss" do
-  version "8.10.1"
+  version "8.11.2"
   sha256 :no_check
 
   url "https://github.com/risa-labs-inc/BOSS-Releases/releases/download/v#{version}/BOSS-#{version}-Universal.dmg",
