@@ -17,6 +17,7 @@ cask "boss" do
   depends_on macos: ">= :catalina"
 
   app "BOSS.app"
+  binary "#{appdir}/BOSS.app/Contents/Resources/boss"
 
   zap trash: [
     "~/Library/Application Support/BOSS",
