@@ -36,6 +36,31 @@ brew install --cask boss
 - ✅ Auto-updates enabled
 - ✅ Code-signed and notarized
 - ✅ Automatic cleanup with `brew uninstall --zap`
+- ✅ Includes `boss` command-line tool
+
+**CLI Support:**
+
+The installation automatically includes the `boss` CLI command:
+```bash
+# After installation, the CLI is immediately available
+boss --help
+
+# Open URLs
+boss url https://github.com
+
+# Open folders
+boss folder ~/Documents
+boss .  # Current directory
+
+# Open files
+boss file README.md
+
+# Open terminal
+boss terminal
+boss terminal -c "ls -la"
+```
+
+The CLI is symlinked to `/opt/homebrew/bin/boss` and automatically updates when you update the BOSS app.
 
 ## Support
 
