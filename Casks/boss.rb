@@ -2,8 +2,7 @@ cask "boss" do
   version "9.5.23"
   sha256 "9e4d7f0e02c5329daa520c420bd68c469624403266387c3954c8e069e5839949"
 
-  url "https://github.com/risa-labs-inc/BossConsole-Releases/releases/download/v#{version}/BOSS-#{version}-Universal.dmg",
-      verified: "github.com/risa-labs-inc/BossConsole-Releases/"
+  url "https://github.com/risa-labs-inc/BossConsole-Releases/releases/download/v#{version}/BOSS-#{version}-Universal.dmg"
   name "BOSS"
   desc "Business OS plus Simulations - AI-powered workspace for complex business operations"
   homepage "https://github.com/risa-labs-inc/BossConsole-Releases"
@@ -14,7 +13,7 @@ cask "boss" do
   end
 
   auto_updates true
-  depends_on macos: ">= :catalina"
+  depends_on macos: :ventura
 
   app "BOSS.app"
   binary "#{appdir}/BOSS.app/Contents/Resources/boss"
